@@ -1,0 +1,68 @@
+.nav{
+    background-color: #ffa500;
+}
+
+ul li{
+    margin-right:16px ;
+    color: white;
+}
+ul li:hover{
+    background-color: maroon;
+}
+
+.col:hover{
+    background-color: #ffa500;
+}
+ul li i {
+    color: white;
+    background-color: transparent;
+}
+.title{
+    width: 100%;
+    height: 125px;
+    float: left;
+    
+}
+.title h1{
+  color: #ffa500;
+  font-weight: bold;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 9px;
+}
+
+.cardpad{
+    width: 100%;
+    height: 500px;
+    float: left;
+   
+}
+.cardpad{
+  
+    margin-top: 10px;
+}
+
+.card h5{
+    font-weight: bolder;
+
+}
+.card i{
+    margin-right: 5px;
+    margin-left: 14px;
+}
+.card .btncol{
+    background-color: #ffa500;
+}
+.card .card-footer{
+    background-color: #f4f0ec;
+    width: 100%;
+}
+
+@media(max-width:667px){
+    .card{
+        margin-top: 35px;
+    }
+    .marb{
+        margin-bottom: 15px;
+    }
+}
